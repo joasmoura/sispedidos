@@ -1,0 +1,46 @@
+.container{max-width: 1300px;}
+.carrinho{height: 100%; left:auto; display:none;}
+
+.noOverflow{overflow: hidden;}
+
+.cardItem{}
+
+.produto img, .imagemProduto{
+    width: 100%; object-fit: cover;
+    border-radius: 20px; height: 15vw;
+}
+
+.itemso{width:20%;}
+
+.tituloItem{font-size:20px; text-transform: uppercase; font-weight: bold !important;}
+.descricaoItem{font-size: 14px; text-transform: lowercase;}
+.valorItemProduto{ font-size:24px; text-transform: uppercase; font-weight: 700;}
+.botaoItem{font-weight: 200; font-size: 14px; border-radius: 10px 0;}
+
+.boxIndisponivel{width: 100%; height: 100%; margin-bottom:5px; background:rgba(255, 255, 255, 0.8); z-index:30; top:-5; border-radius: 20px;font-weight:900; }
+
+.boxIndisponivel h2,.boxIndisponivel h4{
+    color:brown;
+}
+
+.item{
+    transform: scale(0.9);
+    transition: 0.3s ease-in;
+}
+
+.item .card{
+    border-radius: 20px !important;
+
+}
+
+.item:hover{
+    transform: scale(1);
+    transition: 0.3s ease-in;
+}
+
+
+@media screen and (max-width: 800px) {
+    .produto img{height: 40vw;  }
+    .itemso{width:100%;}
+    .carrinho{width: 100%;}
+}

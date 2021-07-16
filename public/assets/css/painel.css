@@ -1,0 +1,4 @@
+.boxCartaoCredito{ border:0.5px solid #069; border-radius:10px; margin:5px;}
+
+.preload{position:fixed; top:0; left:0; width: 100%; height: 100%; background: rgb(0,0,0,0.3); z-index:9999; display:none;}
+.preload .body{width:25%; height: 20%;}
